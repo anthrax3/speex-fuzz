@@ -1,0 +1,27 @@
+start_time        : 1507426154
+last_update       : 1507473843
+fuzzer_pid        : 32265
+cycles_done       : 361
+execs_done        : 12548084
+execs_per_sec     : 4.85
+paths_total       : 310
+paths_favored     : 10
+paths_found       : 154
+paths_imported    : 148
+max_depth         : 6
+cur_path          : 203
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.97%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1507466278
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 12548084
+exec_timeout      : 40
+afl_banner        : slave1
+afl_version       : 2.51b
+command_line      : ../afl-2.51b/afl-fuzz -i testcases/ -o syncdir -S slave1 -- speex-1.2.0/src/speexdec - -
